@@ -11,7 +11,7 @@ app.use("/test/2",(req,res)=>{
 app.get("/test",(req,res,next)=>{
     console.log("1st route");
     
-    res.send("Hello world")
+    // res.send("Hello world")
     next()
 },
 (req,res,next)=>{
